@@ -147,7 +147,7 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	}
 
 	public resetCountrySearch(){
-		if(this.resetSearchContainer){
+		if(this.resetSearchContainer && this.countryList){
 			this.countrySearchText = '';
 			this.countryList.nativeElement
 				.querySelector('.iti__country-list li')
