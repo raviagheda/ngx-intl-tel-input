@@ -96,6 +96,6 @@ li.iti__country:hover {
 .input-box input:focus + label,
 .active-input-state {
     font-size: 9px!important;
-    top:-17px!important;
+    top:-15px!important;
 	background-color: none;
 }
